@@ -15,7 +15,7 @@ public class FirebaseConfig {
     public static void initialize(Context context) {
         if (!isInitialized) {
             FirebaseOptions options = new FirebaseOptions.Builder()
-                    .setApiKey("AIzaSyBqA-luA2kLW8K5D9l6AkN8Q3aGnxGd2MM")  // Remplacez par votre API Key
+                    .setApiKey("google key")  // Remplacez par votre API Key
                     .setApplicationId("1:853800301446:android:c52f5bc1586273116cb207")  // Remplacez par votre App ID
                     .setProjectId("yummigo-dff4e")  // Remplacez par votre Project ID
                     .setDatabaseUrl("https://yummigo-dff4e.firebaseio.com")  // URL de Realtime Database
